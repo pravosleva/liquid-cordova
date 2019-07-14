@@ -7,10 +7,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pravosleva/liquid-cordova.git"
+  },
   "keywords": [
-    "ecosystem:cordova"
+    "ecosystem:cordova",
+    "hvac",
+    "water",
+    "ethylene",
+    "propylene",
+    "liquid",
+    "glycol",
+    "жидкость",
+    "гликоль"
   ],
-  "author": "Den Pol",
+  "author": "pravosleva",
   "license": "Apache-2.0",
   "dependencies": {
     "cordova-android": "^8.0.0"
