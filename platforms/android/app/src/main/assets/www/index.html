@@ -15,7 +15,35 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <script>$(document).ready(function(){$(".scroll-by-local-link").click(function(t){t.preventDefault(),$("html, body").animate({scrollTop:$(t.target.attributes.href.nodeValue).offset().top-70},500),$(".navbar-toggle").click()})})</script>
+    <script>
+      $(document).ready(function (){
+
+        // ===== Scroll to Element ====
+        $(".scroll-by-local-link").click(function(e){
+          //console.log(e.target.attributes.href.nodeValue);
+          e.preventDefault();
+          $('html, body').animate({
+            scrollTop: ($(e.target.attributes.href.nodeValue).offset().top - 70)
+          }, 500);
+          $('.navbar-toggle').click();
+        });
+
+        // ===== Blur =====
+        $(".input-sm").keypress(function(e){
+          // console.log(e.which);
+          if (e.which == 13) {
+            $(this).blur();
+            return false;    //<---- Add this line
+          }
+        })
+
+        // ===== Click on .navbar-brand =====
+        $(".navbar-brand").click(function(e){
+          e.preventDefault();
+          alert('Sorry, not for this case...');
+        })
+      });
+    </script>
     <script type="text/javascript" src="static/js/main.0bb47ae5.js"></script>
   </body>
 </html>

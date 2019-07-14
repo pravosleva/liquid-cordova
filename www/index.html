@@ -38,7 +38,8 @@
         })
 
         // ===== Click on .navbar-brand =====
-        $(".navbar-brand").keypress(function(e){
+        $(".navbar-brand").click(function(e){
+          e.preventDefault();
           alert('Sorry, not for this case...');
         })
       });
