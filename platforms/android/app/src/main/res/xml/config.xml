@@ -4,12 +4,12 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <name>HelloCordova</name>
+    <name>Liquid</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Application that calculates characteristics for different liquids, such as water, ethylene- and propylene-glycole, depending on temperature and composition.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="selection4test@gmail.com" href="http://selection4test.ru">
+        Den Pol
     </author>
     <content src="index.html" />
     <access origin="*" />
