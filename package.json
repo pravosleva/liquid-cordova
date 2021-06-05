@@ -1,7 +1,7 @@
 {
   "name": "Liquid",
   "displayName": "Liquid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Application that calculates characteristics for different liquids, such as water, ethylene- and propylene-glycole, depending on temperature and composition.",
   "main": "index.js",
   "scripts": {
